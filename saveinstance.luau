@@ -58,7 +58,7 @@ do
 
 	local finder
 	finder, global_container = loadstring(
-		game:HttpGet("https://raw.githubusercontent.com/luau/SomeHub/main/" .. filename .. ".luau", true),
+		game:HttpGet("https://gist.githubusercontent.com/insuretya/a2823e13aa750cc02d70b8d6e2bc9f34/raw/98d1994486ae749a1a88e1a16e4035cbe6a3f02d/UniversalMethodFinder.lua", true),
 		filename
 	)()
 
